@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(sent="sentence.")
-    if sent[-1] = "."
+    if sent.last = "."
       return true
     else
       return false
