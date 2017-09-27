@@ -2,12 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(sent="sentence.")
-    if sent[-1] == "."
-      return true
-    else
-      return false
-    end
+  def sentence?(sent)
+    sent[-1] == "." ? true : false
   end
 
   def question?
