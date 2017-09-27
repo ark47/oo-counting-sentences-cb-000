@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(sent)
-    sent[-1, 1] == "."
+    self.end_with? == "."
   end
 
   def question?
