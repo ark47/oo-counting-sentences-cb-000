@@ -5,6 +5,8 @@ class String
   def sentence?(sent="sentence.")
     if sent[-1] = "."
       return true
+    else
+      return false
     end
   end
 
