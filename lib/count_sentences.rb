@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(sent)
-    sent[-1] == "."
+    if sent[-1] == "."
       return true
     else
       return false
