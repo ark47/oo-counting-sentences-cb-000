@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(sent="sentence.")
+  def sentence?(sent)
     if sent[-1, 1] == "."
       return true
     else
